@@ -6,7 +6,7 @@ const tempoM = document.getElementById("tempoM")
 function calculate(){
     if(meta.value!=""&&dificuldade.value!=""){
         const calculo = (60/((meta.value/dificuldade.value)/10))/100 
-        tempoN.value = (5/100)*calculo + " segundos"
+        tempoN.value = (5/100)*calculo + " IGNORE"
         tempoM.value = calculo + " segundos"
         
     }
