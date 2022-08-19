@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Cálculo Piguins</title>
+</head>
+<body>
+    <div id="main">
+
+        <p>Meta: </p><input type="number" id="meta">
+        <p>Dificuldade: </p><input type="number" id="dificuldade"  min=1 max=5>
+        <input type="button" value="Calcular" onclick="calculate()">
+        <br>
+        <p><b>Resultados:</b></p>
+        <br>
+        <p>Tempo Necessário: </p><input type="text" disabled value="0" id="tempoN">
+        <p>Tempo Máximo: </p><input type="text" disabled value="0" id="tempoM">
+
+    </div>
+    <script src="./javascript.js"></script>
+</body>
+</html>
